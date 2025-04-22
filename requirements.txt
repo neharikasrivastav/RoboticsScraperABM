@@ -1,0 +1,14 @@
+litellm
+python-dotenv
+pydantic
+pandas
+openpyxl
+streamlit
+streamlit-tags
+supabase
+crawl4ai
+openai
+tiktoken
+beautifulsoup4
+requests
+watchdog  
