@@ -16,3 +16,4 @@ __pycache__/
 # Ignore OS-specific
 .DS_Store
 
+venv/
