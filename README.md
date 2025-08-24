@@ -1,3 +1,41 @@
+A research + engineering project that combines **web scraping, AI/ML models, and real-time visualization** to extract and analyze robotics-related data.  
+Built with **Python, Streamlit, Supabase, and Playwright**.
+
+---
+
+## 🚀 Project Overview
+- Designed a pipeline to scrape robotics company data from multiple online sources.  
+- Stored structured + unstructured data in **Supabase** for scalable access.  
+- Applied **AI/ML + NLP models** to extract insights (funding, sector, geography, etc.).  
+- Built a **Streamlit dashboard** to visualize robotics industry trends in real-time.  
+
+This project demonstrates skills in **data engineering, automation, applied ML, and full-stack deployment**.
+
+---
+
+## 🛠️ Tech Stack
+- **Python** (automation, data cleaning, ML/NLP models)  
+- **Supabase** (Postgres backend for storing scraped data)  
+- **Playwright** (headless browser scraping)  
+- **Streamlit** (interactive dashboard)  
+- **Docker** (containerized deployment)  
+
+---
+
+## 📂 Project Structure
+- `requirements.txt` → Python dependencies  
+- `streamlit_app.py` → Dashboard entry point  
+- `scraper/` → Playwright scraping scripts  
+- `models/` → AI/NLP models for classification  
+- `.env` → Environment variables (API keys, Supabase credentials)  
+
+---
+
+## 🔧 Setup Instructions
+1. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
+
 #  Install dependencies
 pip install -r requirements.txt
 
@@ -38,4 +76,5 @@ pip install -r requirements.txt
 ## add your api keys in .env files for the models 
 
 ## type the command "streamlit run streamlit_app.py" in your project terminal
+
 
